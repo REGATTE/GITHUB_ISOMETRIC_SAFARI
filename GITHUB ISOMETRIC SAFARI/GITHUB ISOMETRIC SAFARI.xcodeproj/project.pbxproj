@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F3299BA252AE4B600EEF9C7 /* iso.css in Resources */ = {isa = PBXBuildFile; fileRef = 9F3299B9252AE4B600EEF9C7 /* iso.css */; };
+		9F3299C0252AE4D300EEF9C7 /* iso.js in Resources */ = {isa = PBXBuildFile; fileRef = 9F3299BF252AE4D300EEF9C7 /* iso.js */; };
+		9F3299C6252AE50000EEF9C7 /* obelisk.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 9F3299C5252AE50000EEF9C7 /* obelisk.min.js */; };
+		9F3299CC252AE53300EEF9C7 /* webtext-domain-permission-toggle.js in Resources */ = {isa = PBXBuildFile; fileRef = 9F3299CB252AE53300EEF9C7 /* webtext-domain-permission-toggle.js */; };
+		9F9542A9252AE38F00A8625C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9542A8252AE38F00A8625C /* AppDelegate.swift */; };
+		9F9542AC252AE38F00A8625C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9542AA252AE38F00A8625C /* Main.storyboard */; };
+		9F9542AE252AE38F00A8625C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9542AD252AE38F00A8625C /* ViewController.swift */; };
+		9F9542B0252AE39000A8625C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9542AF252AE39000A8625C /* Assets.xcassets */; };
+		9F9542BB252AE39000A8625C /* GITHUB_ISOMETRIC_SAFARITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9542BA252AE39000A8625C /* GITHUB_ISOMETRIC_SAFARITests.swift */; };
+		9F9542C6252AE39000A8625C /* GITHUB_ISOMETRIC_SAFARIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9542C5252AE39000A8625C /* GITHUB_ISOMETRIC_SAFARIUITests.swift */; };
+		9F9542CD252AE39000A8625C /* GITHUB ISOMETRIC SAFARI Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9F9542CC252AE39000A8625C /* GITHUB ISOMETRIC SAFARI Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9F9542D2252AE39000A8625C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9542D1252AE39000A8625C /* Cocoa.framework */; };
+		9F9542D5252AE39000A8625C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9542D4252AE39000A8625C /* SafariWebExtensionHandler.swift */; };
+		9F9542D8252AE39000A8625C /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 9F9542D7252AE39000A8625C /* _locales */; };
+		9F9542DA252AE39000A8625C /* images in Resources */ = {isa = PBXBuildFile; fileRef = 9F9542D9252AE39000A8625C /* images */; };
+		9F9542DC252AE39000A8625C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F9542DB252AE39000A8625C /* manifest.json */; };
+		9F9542DE252AE39000A8625C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 9F9542DD252AE39000A8625C /* background.js */; };
+		9F9542E2252AE39000A8625C /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 9F9542E1252AE39000A8625C /* popup.html */; };
+		9F9542E4252AE39000A8625C /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 9F9542E3252AE39000A8625C /* popup.css */; };
+		9F9542E6252AE39000A8625C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 9F9542E5252AE39000A8625C /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F9542B7252AE39000A8625C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F95429C252AE38F00A8625C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F9542A3252AE38F00A8625C;
+			remoteInfo = "GITHUB ISOMETRIC SAFARI";
+		};
+		9F9542C2252AE39000A8625C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F95429C252AE38F00A8625C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F9542A3252AE38F00A8625C;
+			remoteInfo = "GITHUB ISOMETRIC SAFARI";
+		};
+		9F9542CE252AE39000A8625C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F95429C252AE38F00A8625C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F9542CB252AE39000A8625C;
+			remoteInfo = "GITHUB ISOMETRIC SAFARI Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9F9542EE252AE39000A8625C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9F9542CD252AE39000A8625C /* GITHUB ISOMETRIC SAFARI Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9F3299B9252AE4B600EEF9C7 /* iso.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = iso.css; sourceTree = "<group>"; };
+		9F3299BF252AE4D300EEF9C7 /* iso.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = iso.js; sourceTree = "<group>"; };
+		9F3299C5252AE50000EEF9C7 /* obelisk.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = obelisk.min.js; sourceTree = "<group>"; };
+		9F3299CB252AE53300EEF9C7 /* webtext-domain-permission-toggle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "webtext-domain-permission-toggle.js"; sourceTree = "<group>"; };
+		9F9542A4252AE38F00A8625C /* GITHUB ISOMETRIC SAFARI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GITHUB ISOMETRIC SAFARI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9542A7252AE38F00A8625C /* GITHUB_ISOMETRIC_SAFARI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GITHUB_ISOMETRIC_SAFARI.entitlements; sourceTree = "<group>"; };
+		9F9542A8252AE38F00A8625C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F9542AB252AE38F00A8625C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F9542AD252AE38F00A8625C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F9542AF252AE39000A8625C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F9542B1252AE39000A8625C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9542B6252AE39000A8625C /* GITHUB ISOMETRIC SAFARITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GITHUB ISOMETRIC SAFARITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9542BA252AE39000A8625C /* GITHUB_ISOMETRIC_SAFARITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GITHUB_ISOMETRIC_SAFARITests.swift; sourceTree = "<group>"; };
+		9F9542BC252AE39000A8625C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9542C1252AE39000A8625C /* GITHUB ISOMETRIC SAFARIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GITHUB ISOMETRIC SAFARIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9542C5252AE39000A8625C /* GITHUB_ISOMETRIC_SAFARIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GITHUB_ISOMETRIC_SAFARIUITests.swift; sourceTree = "<group>"; };
+		9F9542C7252AE39000A8625C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9542CC252AE39000A8625C /* GITHUB ISOMETRIC SAFARI Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GITHUB ISOMETRIC SAFARI Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9542D1252AE39000A8625C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9F9542D4252AE39000A8625C /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		9F9542D7252AE39000A8625C /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		9F9542D9252AE39000A8625C /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		9F9542DB252AE39000A8625C /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		9F9542DD252AE39000A8625C /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		9F9542E1252AE39000A8625C /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		9F9542E3252AE39000A8625C /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		9F9542E5252AE39000A8625C /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		9F9542E7252AE39000A8625C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9542E8252AE39000A8625C /* GITHUB_ISOMETRIC_SAFARI_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GITHUB_ISOMETRIC_SAFARI_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F9542A1252AE38F00A8625C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9542B3252AE39000A8625C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9542BE252AE39000A8625C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9542C9252AE39000A8625C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9542D2252AE39000A8625C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F95429B252AE38F00A8625C = {
+			isa = PBXGroup;
+			children = (
+				9F9542A6252AE38F00A8625C /* GITHUB ISOMETRIC SAFARI */,
+				9F9542B9252AE39000A8625C /* GITHUB ISOMETRIC SAFARITests */,
+				9F9542C4252AE39000A8625C /* GITHUB ISOMETRIC SAFARIUITests */,
+				9F9542D3252AE39000A8625C /* GITHUB ISOMETRIC SAFARI Extension */,
+				9F9542D0252AE39000A8625C /* Frameworks */,
+				9F9542A5252AE38F00A8625C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F9542A5252AE38F00A8625C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F9542A4252AE38F00A8625C /* GITHUB ISOMETRIC SAFARI.app */,
+				9F9542B6252AE39000A8625C /* GITHUB ISOMETRIC SAFARITests.xctest */,
+				9F9542C1252AE39000A8625C /* GITHUB ISOMETRIC SAFARIUITests.xctest */,
+				9F9542CC252AE39000A8625C /* GITHUB ISOMETRIC SAFARI Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F9542A6252AE38F00A8625C /* GITHUB ISOMETRIC SAFARI */ = {
+			isa = PBXGroup;
+			children = (
+				9F9542A7252AE38F00A8625C /* GITHUB_ISOMETRIC_SAFARI.entitlements */,
+				9F9542A8252AE38F00A8625C /* AppDelegate.swift */,
+				9F9542AA252AE38F00A8625C /* Main.storyboard */,
+				9F9542AD252AE38F00A8625C /* ViewController.swift */,
+				9F9542AF252AE39000A8625C /* Assets.xcassets */,
+				9F9542B1252AE39000A8625C /* Info.plist */,
+			);
+			path = "GITHUB ISOMETRIC SAFARI";
+			sourceTree = "<group>";
+		};
+		9F9542B9252AE39000A8625C /* GITHUB ISOMETRIC SAFARITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F9542BA252AE39000A8625C /* GITHUB_ISOMETRIC_SAFARITests.swift */,
+				9F9542BC252AE39000A8625C /* Info.plist */,
+			);
+			path = "GITHUB ISOMETRIC SAFARITests";
+			sourceTree = "<group>";
+		};
+		9F9542C4252AE39000A8625C /* GITHUB ISOMETRIC SAFARIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F9542C5252AE39000A8625C /* GITHUB_ISOMETRIC_SAFARIUITests.swift */,
+				9F9542C7252AE39000A8625C /* Info.plist */,
+			);
+			path = "GITHUB ISOMETRIC SAFARIUITests";
+			sourceTree = "<group>";
+		};
+		9F9542D0252AE39000A8625C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F9542D1252AE39000A8625C /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F9542D3252AE39000A8625C /* GITHUB ISOMETRIC SAFARI Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9F9542D4252AE39000A8625C /* SafariWebExtensionHandler.swift */,
+				9F9542E7252AE39000A8625C /* Info.plist */,
+				9F9542E8252AE39000A8625C /* GITHUB_ISOMETRIC_SAFARI_Extension.entitlements */,
+				9F9542D6252AE39000A8625C /* Resources */,
+			);
+			path = "GITHUB ISOMETRIC SAFARI Extension";
+			sourceTree = "<group>";
+		};
+		9F9542D6252AE39000A8625C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F9542D7252AE39000A8625C /* _locales */,
+				9F9542D9252AE39000A8625C /* images */,
+				9F9542DB252AE39000A8625C /* manifest.json */,
+				9F9542DD252AE39000A8625C /* background.js */,
+				9F9542E1252AE39000A8625C /* popup.html */,
+				9F9542E3252AE39000A8625C /* popup.css */,
+				9F9542E5252AE39000A8625C /* popup.js */,
+				9F3299B9252AE4B600EEF9C7 /* iso.css */,
+				9F3299BF252AE4D300EEF9C7 /* iso.js */,
+				9F3299C5252AE50000EEF9C7 /* obelisk.min.js */,
+				9F3299CB252AE53300EEF9C7 /* webtext-domain-permission-toggle.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F9542A3252AE38F00A8625C /* GITHUB ISOMETRIC SAFARI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9542EF252AE39000A8625C /* Build configuration list for PBXNativeTarget "GITHUB ISOMETRIC SAFARI" */;
+			buildPhases = (
+				9F9542A0252AE38F00A8625C /* Sources */,
+				9F9542A1252AE38F00A8625C /* Frameworks */,
+				9F9542A2252AE38F00A8625C /* Resources */,
+				9F9542EE252AE39000A8625C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F9542CF252AE39000A8625C /* PBXTargetDependency */,
+			);
+			name = "GITHUB ISOMETRIC SAFARI";
+			productName = "GITHUB ISOMETRIC SAFARI";
+			productReference = 9F9542A4252AE38F00A8625C /* GITHUB ISOMETRIC SAFARI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F9542B5252AE39000A8625C /* GITHUB ISOMETRIC SAFARITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9542F2252AE39000A8625C /* Build configuration list for PBXNativeTarget "GITHUB ISOMETRIC SAFARITests" */;
+			buildPhases = (
+				9F9542B2252AE39000A8625C /* Sources */,
+				9F9542B3252AE39000A8625C /* Frameworks */,
+				9F9542B4252AE39000A8625C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F9542B8252AE39000A8625C /* PBXTargetDependency */,
+			);
+			name = "GITHUB ISOMETRIC SAFARITests";
+			productName = "GITHUB ISOMETRIC SAFARITests";
+			productReference = 9F9542B6252AE39000A8625C /* GITHUB ISOMETRIC SAFARITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F9542C0252AE39000A8625C /* GITHUB ISOMETRIC SAFARIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9542F5252AE39000A8625C /* Build configuration list for PBXNativeTarget "GITHUB ISOMETRIC SAFARIUITests" */;
+			buildPhases = (
+				9F9542BD252AE39000A8625C /* Sources */,
+				9F9542BE252AE39000A8625C /* Frameworks */,
+				9F9542BF252AE39000A8625C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F9542C3252AE39000A8625C /* PBXTargetDependency */,
+			);
+			name = "GITHUB ISOMETRIC SAFARIUITests";
+			productName = "GITHUB ISOMETRIC SAFARIUITests";
+			productReference = 9F9542C1252AE39000A8625C /* GITHUB ISOMETRIC SAFARIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9F9542CB252AE39000A8625C /* GITHUB ISOMETRIC SAFARI Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9542EB252AE39000A8625C /* Build configuration list for PBXNativeTarget "GITHUB ISOMETRIC SAFARI Extension" */;
+			buildPhases = (
+				9F9542C8252AE39000A8625C /* Sources */,
+				9F9542C9252AE39000A8625C /* Frameworks */,
+				9F9542CA252AE39000A8625C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GITHUB ISOMETRIC SAFARI Extension";
+			productName = "GITHUB ISOMETRIC SAFARI Extension";
+			productReference = 9F9542CC252AE39000A8625C /* GITHUB ISOMETRIC SAFARI Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F95429C252AE38F00A8625C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					9F9542A3252AE38F00A8625C = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					9F9542B5252AE39000A8625C = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 9F9542A3252AE38F00A8625C;
+					};
+					9F9542C0252AE39000A8625C = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 9F9542A3252AE38F00A8625C;
+					};
+					9F9542CB252AE39000A8625C = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9F95429F252AE38F00A8625C /* Build configuration list for PBXProject "GITHUB ISOMETRIC SAFARI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F95429B252AE38F00A8625C;
+			productRefGroup = 9F9542A5252AE38F00A8625C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F9542A3252AE38F00A8625C /* GITHUB ISOMETRIC SAFARI */,
+				9F9542B5252AE39000A8625C /* GITHUB ISOMETRIC SAFARITests */,
+				9F9542C0252AE39000A8625C /* GITHUB ISOMETRIC SAFARIUITests */,
+				9F9542CB252AE39000A8625C /* GITHUB ISOMETRIC SAFARI Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F9542A2252AE38F00A8625C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9542B0252AE39000A8625C /* Assets.xcassets in Resources */,
+				9F9542AC252AE38F00A8625C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9542B4252AE39000A8625C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9542BF252AE39000A8625C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9542CA252AE39000A8625C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9542DE252AE39000A8625C /* background.js in Resources */,
+				9F9542E4252AE39000A8625C /* popup.css in Resources */,
+				9F3299CC252AE53300EEF9C7 /* webtext-domain-permission-toggle.js in Resources */,
+				9F9542E2252AE39000A8625C /* popup.html in Resources */,
+				9F9542DA252AE39000A8625C /* images in Resources */,
+				9F3299BA252AE4B600EEF9C7 /* iso.css in Resources */,
+				9F9542DC252AE39000A8625C /* manifest.json in Resources */,
+				9F3299C6252AE50000EEF9C7 /* obelisk.min.js in Resources */,
+				9F3299C0252AE4D300EEF9C7 /* iso.js in Resources */,
+				9F9542D8252AE39000A8625C /* _locales in Resources */,
+				9F9542E6252AE39000A8625C /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F9542A0252AE38F00A8625C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9542AE252AE38F00A8625C /* ViewController.swift in Sources */,
+				9F9542A9252AE38F00A8625C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9542B2252AE39000A8625C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9542BB252AE39000A8625C /* GITHUB_ISOMETRIC_SAFARITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9542BD252AE39000A8625C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9542C6252AE39000A8625C /* GITHUB_ISOMETRIC_SAFARIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9542C8252AE39000A8625C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9542D5252AE39000A8625C /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F9542B8252AE39000A8625C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F9542A3252AE38F00A8625C /* GITHUB ISOMETRIC SAFARI */;
+			targetProxy = 9F9542B7252AE39000A8625C /* PBXContainerItemProxy */;
+		};
+		9F9542C3252AE39000A8625C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F9542A3252AE38F00A8625C /* GITHUB ISOMETRIC SAFARI */;
+			targetProxy = 9F9542C2252AE39000A8625C /* PBXContainerItemProxy */;
+		};
+		9F9542CF252AE39000A8625C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F9542CB252AE39000A8625C /* GITHUB ISOMETRIC SAFARI Extension */;
+			targetProxy = 9F9542CE252AE39000A8625C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F9542AA252AE38F00A8625C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F9542AB252AE38F00A8625C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F9542E9252AE39000A8625C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F9542EA252AE39000A8625C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9F9542EC252AE39000A8625C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "GITHUB ISOMETRIC SAFARI Extension/GITHUB_ISOMETRIC_SAFARI_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZ7VQP664P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "GITHUB ISOMETRIC SAFARI Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "REGATTE.GITHUB-ISOMETRIC-SAFARI-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9F9542ED252AE39000A8625C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "GITHUB ISOMETRIC SAFARI Extension/GITHUB_ISOMETRIC_SAFARI_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZ7VQP664P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "GITHUB ISOMETRIC SAFARI Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "REGATTE.GITHUB-ISOMETRIC-SAFARI-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9F9542F0252AE39000A8625C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GITHUB ISOMETRIC SAFARI/GITHUB_ISOMETRIC_SAFARI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TZ7VQP664P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "GITHUB ISOMETRIC SAFARI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "REGATTE.GITHUB-ISOMETRIC-SAFARI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9F9542F1252AE39000A8625C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GITHUB ISOMETRIC SAFARI/GITHUB_ISOMETRIC_SAFARI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TZ7VQP664P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "GITHUB ISOMETRIC SAFARI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "REGATTE.GITHUB-ISOMETRIC-SAFARI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9F9542F3252AE39000A8625C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TZ7VQP664P;
+				INFOPLIST_FILE = "GITHUB ISOMETRIC SAFARITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "REGATTE.GITHUB-ISOMETRIC-SAFARITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GITHUB ISOMETRIC SAFARI.app/Contents/MacOS/GITHUB ISOMETRIC SAFARI";
+			};
+			name = Debug;
+		};
+		9F9542F4252AE39000A8625C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TZ7VQP664P;
+				INFOPLIST_FILE = "GITHUB ISOMETRIC SAFARITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "REGATTE.GITHUB-ISOMETRIC-SAFARITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GITHUB ISOMETRIC SAFARI.app/Contents/MacOS/GITHUB ISOMETRIC SAFARI";
+			};
+			name = Release;
+		};
+		9F9542F6252AE39000A8625C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TZ7VQP664P;
+				INFOPLIST_FILE = "GITHUB ISOMETRIC SAFARIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "REGATTE.GITHUB-ISOMETRIC-SAFARIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "GITHUB ISOMETRIC SAFARI";
+			};
+			name = Debug;
+		};
+		9F9542F7252AE39000A8625C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TZ7VQP664P;
+				INFOPLIST_FILE = "GITHUB ISOMETRIC SAFARIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "REGATTE.GITHUB-ISOMETRIC-SAFARIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "GITHUB ISOMETRIC SAFARI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F95429F252AE38F00A8625C /* Build configuration list for PBXProject "GITHUB ISOMETRIC SAFARI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9542E9252AE39000A8625C /* Debug */,
+				9F9542EA252AE39000A8625C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9542EB252AE39000A8625C /* Build configuration list for PBXNativeTarget "GITHUB ISOMETRIC SAFARI Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9542EC252AE39000A8625C /* Debug */,
+				9F9542ED252AE39000A8625C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9542EF252AE39000A8625C /* Build configuration list for PBXNativeTarget "GITHUB ISOMETRIC SAFARI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9542F0252AE39000A8625C /* Debug */,
+				9F9542F1252AE39000A8625C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9542F2252AE39000A8625C /* Build configuration list for PBXNativeTarget "GITHUB ISOMETRIC SAFARITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9542F3252AE39000A8625C /* Debug */,
+				9F9542F4252AE39000A8625C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9542F5252AE39000A8625C /* Build configuration list for PBXNativeTarget "GITHUB ISOMETRIC SAFARIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9542F6252AE39000A8625C /* Debug */,
+				9F9542F7252AE39000A8625C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F95429C252AE38F00A8625C /* Project object */;
+}
