@@ -13,7 +13,7 @@ Built from the orignal Repo: https://github.com/jasonlong/isometric-contribution
 </br>
 
 To contribute, check this: 
-<a href="">
+<a href="https://github.com/REGATTE/GITHUB_ISOMETRIC_SAFARI/blob/master/safari/Contributing.md">
   <img align="left" alt="To Contribute" width="50px" src="https://img.shields.io/badge/-Contribute-black?style=flat-square" />
 </a> 
 
