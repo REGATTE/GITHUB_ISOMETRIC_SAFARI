@@ -22,8 +22,7 @@
     "content_scripts": [{
         "css": [ "iso.css" ],
         "js": [ "obelisk.min.js", "iso.js" ],
-        "matches": [ "https://github.com/*" ]
-    }],
+        "matches": [ "https://github.com/*" ]l    }],
 
     "browser_action": {
         "default_popup": "popup.html",
